@@ -19,7 +19,8 @@
             Console.ForegroundColor = ConsoleColor.DarkRed;
             points += Question4.RunQuestion();
             Console.WriteLine(points + " Poeng");
-            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
 
 
 
